@@ -47,3 +47,12 @@ const isVowel = (input) => {
             return false;
     }
 }
+const add =(num1, num2) => {
+    let result = parseFloat(num1) + parseFloat(num2);
+    switch(typeof result){
+        case "number":
+            return result;
+        default:
+            return NaN;
+    }
+}
