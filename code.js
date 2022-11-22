@@ -32,6 +32,11 @@ function isEven(input){
 };
 const isVowel = (input) => {
     switch(input){
+        case 'A':
+        case 'E':
+        case 'I':
+        case 'O':
+        case 'U':
         case 'a':
         case 'e':
         case 'i':
